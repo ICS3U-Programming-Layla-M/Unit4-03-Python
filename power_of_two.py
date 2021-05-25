@@ -27,6 +27,11 @@ def main():
         # error message
         print("{} is not a whole number.". format(number_as_string))
 
+    finally:
+        # end message
+        print("\n")
+        print("Thanks for playing!")
+
 
 if __name__ == "__main__":
     main()
